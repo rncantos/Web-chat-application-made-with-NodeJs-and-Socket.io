@@ -1,0 +1,21 @@
+{
+  "name": "curso-sockets",
+  "version": "1.0.0",
+  "description": "Proyecto de chat con node y socke.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Nuñez Cantos",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.17.0",
+    "express": "^4.16.2",
+    "jshint": "^2.9.5",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
